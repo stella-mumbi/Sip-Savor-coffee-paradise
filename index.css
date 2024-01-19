@@ -1,0 +1,136 @@
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 20;
+    overflow: hidden;
+    background-color: #521802; 
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+li a:contact{
+    color:red;
+
+}
+
+.image-with-shadow {
+    box-shadow: 10px 10px 20px rgba(210, 34, 184, 0.688); /* Adjust shadow values */
+    margin-right: 40px;
+    
+
+}
+
+.top {
+    width: 100%;
+    float: left; 
+    background-color: rgb(157, 71, 227);
+}
+.topleft {
+    width: 80%;
+    float: left;
+}
+.topright {
+    width: 20%;
+    float: left;
+}
+.product {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: lightgreen;
+}
+
+.product img {
+    width: 280px;
+    height: 200px;
+}
+
+.products-section {
+    width: 100%;
+    float: left;
+}
+
+li a:hover {
+    background-color: #111; 
+}
+
+@media screen and (max-width: 600px) {
+    li:not(:first-child) {
+        display: none;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+}
+h3 {
+    text-align: center;
+}
+
+
+.container {
+position: relative; /* Establishes a positioning context for the image */
+width: 100%; /* Example width for the container */
+height: 500px; /* Example height for the container */
+background-color: none; /* Example background color for the container */
+}
+
+.image-on-corner {
+position: absolute;
+top: 20px; /* Adjust the top position */
+left: 20px; /* Adjust the left position */
+}
+
+/* Default styles for all screen sizes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+      font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    
+    /* Additional styles specific to smaller screens */
+    /* ... */
+  }
+  
+  /* Media query for screens between 601px and 900px */
+  @media screen and (min-width: 601px) and (max-width: 900px) {
+    body {
+        padding: 15px;
+      /* Adjust styles for screens between 601px and 900px */
+    }
+    
+    /* Additional styles specific to this range of screen sizes */
+    /* ... */
+  }
+  
+  /* Media query for screens larger than 901px */
+  @media screen and (min-width: 901px) {
+    body {
+        padding: 20px;
+      /* Adjust styles for larger screens */
+    }
+    
+    /* Additional styles specific to larger screens */
+    /* ... */
+  }
+
+ 
